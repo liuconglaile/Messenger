@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15DC3685A1147E3ADFDCC539 /* libPods-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF0EF40EF90293E7039F76D /* libPods-app.a */; };
+		049543111E86119100DA19D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049543101E86119100DA19D9 /* GoogleService-Info.plist */; };
 		291F172F1DCCF60E004CA70F /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297DBA0A1DCB5F13008551F2 /* PushKit.framework */; };
 		29367E861DCE419700A8D97B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29367D6F1DCE419700A8D97B /* NavigationController.m */; };
 		29367E871DCE419700A8D97B /* MembersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29367D721DCE419700A8D97B /* MembersView.m */; };
@@ -197,7 +197,6 @@
 		29367F891DCE41DD00A8D97B /* tab_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29367F541DCE41DD00A8D97B /* tab_people@2x.png */; };
 		29367F8A1DCE41DD00A8D97B /* tab_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29367F551DCE41DD00A8D97B /* tab_settings@2x.png */; };
 		29367F8B1DCE41DD00A8D97B /* welcome_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29367F571DCE41DD00A8D97B /* welcome_logo@2x.png */; };
-		2950182F1D9A5CE000AFD8B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2950182E1D9A5CE000AFD8B3 /* GoogleService-Info.plist */; };
 		29D29EF61D9A59E4006CA074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D29EF51D9A59E4006CA074 /* main.m */; };
 		29D29EF91D9A59E4006CA074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D29EF81D9A59E4006CA074 /* AppDelegate.m */; };
 		29D29F011D9A59E4006CA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D29F001D9A59E4006CA074 /* Assets.xcassets */; };
@@ -363,9 +362,11 @@
 		29DB75541DC4BE530049F54E /* stickersend78@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29DB74881DC4BE520049F54E /* stickersend78@2x.png */; };
 		29DB75551DC4BE530049F54E /* privacy.html in Resources */ = {isa = PBXBuildFile; fileRef = 29DB748A1DC4BE520049F54E /* privacy.html */; };
 		29DB75561DC4BE530049F54E /* terms.html in Resources */ = {isa = PBXBuildFile; fileRef = 29DB748B1DC4BE520049F54E /* terms.html */; };
+		6478BC94FA6A88D20DF2A6C9 /* libPods-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1A66A912EC3FC0278838F8 /* libPods-app.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049543101E86119100DA19D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29367D6E1DCE419700A8D97B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		29367D6F1DCE419700A8D97B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		29367D711DCE419700A8D97B /* MembersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MembersView.h; sourceTree = "<group>"; };
@@ -651,7 +652,6 @@
 		29367F551DCE41DD00A8D97B /* tab_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_settings@2x.png"; sourceTree = "<group>"; };
 		29367F571DCE41DD00A8D97B /* welcome_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome_logo@2x.png"; sourceTree = "<group>"; };
 		295015181D9A5C1B00AFD8B3 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
-		2950182E1D9A5CE000AFD8B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		295018301D9A5CE600AFD8B3 /* AppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstant.h; sourceTree = "<group>"; };
 		297DBA0A1DCB5F13008551F2 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
 		29D29EF11D9A59E4006CA074 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -822,8 +822,8 @@
 		29DB74881DC4BE520049F54E /* stickersend78@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stickersend78@2x.png"; sourceTree = "<group>"; };
 		29DB748A1DC4BE520049F54E /* privacy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = privacy.html; sourceTree = "<group>"; };
 		29DB748B1DC4BE520049F54E /* terms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = terms.html; sourceTree = "<group>"; };
+		5F1A66A912EC3FC0278838F8 /* libPods-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7393A6F3A4D6270AF7ACDCFA /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
-		FAF0EF40EF90293E7039F76D /* libPods-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC28F63C1114893726170446 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -833,7 +833,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				291F172F1DCCF60E004CA70F /* PushKit.framework in Frameworks */,
-				15DC3685A1147E3ADFDCC539 /* libPods-app.a in Frameworks */,
+				6478BC94FA6A88D20DF2A6C9 /* libPods-app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1246,8 +1246,8 @@
 				29367E351DCE419700A8D97B /* general2 */,
 				29367E481DCE419700A8D97B /* general3 */,
 				29367E4F1DCE419700A8D97B /* manager */,
-				29367E581DCE419700A8D97B /* mediaitems */,
-				29367E611DCE419700A8D97B /* messages */,
+				29367E581DCE419700A8D97B /* mediaitems(聊天气泡) */,
+				29367E611DCE419700A8D97B /* messages(消息管理) */,
 				29367E6C1DCE419700A8D97B /* realm */,
 				29367E791DCE419700A8D97B /* utilities.h */,
 			);
@@ -1396,7 +1396,7 @@
 			path = manager;
 			sourceTree = "<group>";
 		};
-		29367E581DCE419700A8D97B /* mediaitems */ = {
+		29367E581DCE419700A8D97B /* mediaitems(聊天气泡) */ = {
 			isa = PBXGroup;
 			children = (
 				29367E591DCE419700A8D97B /* AudioMediaItem.h */,
@@ -1408,10 +1408,11 @@
 				29367E5F1DCE419700A8D97B /* VideoMediaItem.h */,
 				29367E601DCE419700A8D97B /* VideoMediaItem.m */,
 			);
+			name = "mediaitems(聊天气泡)";
 			path = mediaitems;
 			sourceTree = "<group>";
 		};
-		29367E611DCE419700A8D97B /* messages */ = {
+		29367E611DCE419700A8D97B /* messages(消息管理) */ = {
 			isa = PBXGroup;
 			children = (
 				29367E621DCE419700A8D97B /* Connection.h */,
@@ -1425,6 +1426,7 @@
 				29367E6A1DCE419700A8D97B /* MessageSend2.h */,
 				29367E6B1DCE419700A8D97B /* MessageSend2.m */,
 			);
+			name = "messages(消息管理)";
 			path = messages;
 			sourceTree = "<group>";
 		};
@@ -1734,9 +1736,9 @@
 				29D29EF71D9A59E4006CA074 /* AppDelegate.h */,
 				29D29EF81D9A59E4006CA074 /* AppDelegate.m */,
 				29D29F001D9A59E4006CA074 /* Assets.xcassets */,
-				2950182E1D9A5CE000AFD8B3 /* GoogleService-Info.plist */,
 				29D29F021D9A59E4006CA074 /* LaunchScreen.storyboard */,
 				29D29F051D9A59E4006CA074 /* Info.plist */,
+				049543101E86119100DA19D9 /* GoogleService-Info.plist */,
 				29D29EF41D9A59E4006CA074 /* Supporting Files */,
 			);
 			path = app;
@@ -1980,7 +1982,7 @@
 			isa = PBXGroup;
 			children = (
 				297DBA0A1DCB5F13008551F2 /* PushKit.framework */,
-				FAF0EF40EF90293E7039F76D /* libPods-app.a */,
+				5F1A66A912EC3FC0278838F8 /* libPods-app.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1992,12 +1994,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29D29F081D9A59E4006CA074 /* Build configuration list for PBXNativeTarget "app" */;
 			buildPhases = (
-				564FA53725BBB31D10A7719F /* 📦 Check Pods Manifest.lock */,
+				564FA53725BBB31D10A7719F /* [CP] Check Pods Manifest.lock */,
 				29D29EED1D9A59E4006CA074 /* Sources */,
 				29D29EEE1D9A59E4006CA074 /* Frameworks */,
 				29D29EEF1D9A59E4006CA074 /* Resources */,
-				4BC9ED4F9225DB1F507018EC /* 📦 Embed Pods Frameworks */,
-				99798CFEFBD4DF0B07464ED4 /* 📦 Copy Pods Resources */,
+				4BC9ED4F9225DB1F507018EC /* [CP] Embed Pods Frameworks */,
+				99798CFEFBD4DF0B07464ED4 /* [CP] Copy Pods Resources */,
 				29DB73A51DC4B2CF0049F54E /* ShellScript */,
 			);
 			buildRules = (
@@ -2020,17 +2022,17 @@
 				TargetAttributes = {
 					29D29EF01D9A59E4006CA074 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UUF85U8HLF;
+						DevelopmentTeam = PKZRZ28357;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
 							com.apple.Keychain = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -2190,6 +2192,7 @@
 				29DB75221DC4BE520049F54E /* stickersend28@2x.png in Resources */,
 				29DB752B1DC4BE530049F54E /* stickersend37@2x.png in Resources */,
 				29367F681DCE41DD00A8D97B /* chat_video@2x.png in Resources */,
+				049543111E86119100DA19D9 /* GoogleService-Info.plist in Resources */,
 				29DB74FE1DC4BE520049F54E /* stickerlocal70@2x.png in Resources */,
 				29367F891DCE41DD00A8D97B /* tab_people@2x.png in Resources */,
 				29367EBC1DCE419700A8D97B /* ArchiveView.xib in Resources */,
@@ -2255,7 +2258,6 @@
 				29367E881DCE419700A8D97B /* MembersView.xib in Resources */,
 				29367F5C1DCE41DD00A8D97B /* call_mute1@2x.png in Resources */,
 				29DB74F51DC4BE520049F54E /* stickerlocal61@2x.png in Resources */,
-				2950182F1D9A5CE000AFD8B3 /* GoogleService-Info.plist in Resources */,
 				29DB754D1DC4BE530049F54E /* stickersend71@2x.png in Resources */,
 				29367EA41DCE419700A8D97B /* PeopleCell.xib in Resources */,
 				29DB74DB1DC4BE520049F54E /* stickerlocal35@2x.png in Resources */,
@@ -2335,14 +2337,14 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" d46b6fabbab5de43e806b6135953c76d49415cd3 9dc2bb7f83c79e26bbd06d102cf834677eb71e35b67007ca3c1b31805986f143";
 		};
-		4BC9ED4F9225DB1F507018EC /* 📦 Embed Pods Frameworks */ = {
+		4BC9ED4F9225DB1F507018EC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2350,29 +2352,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-app/Pods-app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		564FA53725BBB31D10A7719F /* 📦 Check Pods Manifest.lock */ = {
+		564FA53725BBB31D10A7719F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		99798CFEFBD4DF0B07464ED4 /* 📦 Copy Pods Resources */ = {
+		99798CFEFBD4DF0B07464ED4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2597,9 +2599,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = app/app.entitlements;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = UUF85U8HLF;
+				DEVELOPMENT_TEAM = PKZRZ28357;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/Framework\"",
+					"\"${PODS_ROOT}/SinchRTC\"",
+					"\"${PODS_ROOT}/Realm\"",
+				);
 				INFOPLIST_FILE = app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -2614,8 +2632,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = app/app.entitlements;
-				DEVELOPMENT_TEAM = UUF85U8HLF;
+				DEVELOPMENT_TEAM = PKZRZ28357;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Crashlytics/iOS\"",
+					"\"${PODS_ROOT}/Fabric/iOS\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseAuth/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/FirebaseStorage/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks\"",
+					"\"${PODS_ROOT}/OneSignal/iOS_SDK/Framework\"",
+					"\"${PODS_ROOT}/SinchRTC\"",
+					"\"${PODS_ROOT}/Realm\"",
+				);
 				INFOPLIST_FILE = app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
